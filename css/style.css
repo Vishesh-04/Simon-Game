@@ -69,8 +69,6 @@ body{
         padding-top: 200px;
     }
     .heading h1, .rules, .btn{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-left: -60px;
     }
 }
