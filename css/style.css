@@ -13,14 +13,30 @@ body{
 .pad{
     height: 7vh;
 }
-@media screen and (max-width:665px) {
+@media screen and (max-width:1024px) {
     .pad{
-        padding-left: 50vh;
+        padding-left: 110vh;
+    }
+}
+@media screen and (max-width:830px) {
+    .pad{
+        padding-left: 90vh;
+    }
+}
+
+@media screen and (max-width:685px) {
+    .pad{
+        padding-left: 60vh;
     }
 }
 @media screen and (max-width:500px) {
     .pad{
-        padding-left: 30vh;
+        padding-left: 40vh;
+    }
+}
+@media screen and (max-width:375px) {
+    .pad{
+        padding-left: 20vh;
     }
 }
 .heading h1{
