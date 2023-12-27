@@ -1,0 +1,275 @@
+body {
+  text-align: center;
+  background: linear-gradient(155deg, #002244 ,#00FFFF);;
+}
+
+
+.text-gray-600 {
+  color: #4a5568; /* Replace with the desired color */
+}
+
+.body-font {
+  font-family: Arial, sans-serif; /* Replace with 'Roboto Slab' or other preferred font */
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.md\:flex-row {
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.z-index-12 {
+  z-index: 12;
+}
+
+.title-font {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.md\:mb-0 {
+  margin-bottom: 0;
+}
+
+img {
+  max-width: 100%;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* .ml-3 {
+  margin-left: 0.75rem;
+} */
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+nav {
+  display: flex;
+  padding: 1.25rem;
+  color: #4a5568; /* Replace with the desired color */
+  border: 1px solid #e2e8f0; /* Replace with the desired border color */
+  border-radius: 0.375rem;
+}
+
+ol {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #4a5568; /* Replace with the desired color */
+}
+
+a:hover {
+  color: #2563eb; /* Replace with the desired hover color */
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.me-2.5 {
+  margin-right: 0.625rem;
+}
+
+
+.block {
+  display: block;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.dark\:text-gray-400 {
+  color: #a0aec0; /* Replace with the desired dark mode color */
+}
+
+.dark\:hover\:text-white:hover {
+  color: #fff; /* Replace with the desired dark mode hover color */
+}
+
+.ms-1 {
+  margin-left: 0.25rem;
+}
+
+.hover\:text-blue-600:hover {
+  color: #4299e1; /* Replace with the desired hover color */
+}
+.btn {
+  height: 350px;
+  width: 350px;
+  border: 10px solid black;
+}
+
+.conta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 700px;
+  border-radius: 100%;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    
+}
+input[type="submit"] {
+  background: url(../assests/submit.png);
+  border: 0;
+  display: block;
+  height: 100px;
+  width: 200px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+input[type="new"] {
+  background: url(../assests/NEW\ GAME.png);
+  border: 0;
+  display: block;
+  height: 100px;
+  width: 300px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-size: xx-large;
+}
+.circle {
+  border-radius: 50%;
+  color: aliceblue;
+}
+.re {
+    /* background-color: rgb(198, 79, 79); */
+    background-color: green;
+    border-radius: 100% 0% 0% 0%;
+  }
+  
+  .yel {
+    background-color: yellow;
+    border-radius: 0% 0% 0% 100%;
+  }
+.gre {
+    background-color: blue;
+    border-radius: 0% 100% 0% 0%;
+  }
+  
+  .pur {
+    /* background-color: rgb(167, 78, 167); */
+    background-color: red;
+    border-radius: 0% 0% 100% 0%;
+  }
+
+.copyright {
+  padding: 40px;
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+
+.flashBtn {
+  background-color: white;
+}
+
+.userFlash {
+  background-color: white;
+}
+
+@media screen and (max-width:1001px){
+  .btn {
+    height: 250px;
+    width: 250px;
+    border: 10px solid black;
+  }
+}
+@media screen and (max-width:700px){
+  .btn {
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+  }
+  .conta {
+    height: 80vh;
+  }
+}
