@@ -13,6 +13,33 @@ body{
 .pad{
     height: 7vh;
 }
+.heading h1{
+    padding-left: 10vh;
+    font-weight: 900;
+    font-size: 4em;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.space{
+    padding-top: 80px;
+}
+.rules{
+    color: white;
+    padding-left: 10vh;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    font-weight: 200;
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif;
+}
+.btn {
+    padding-top: 100px;
+    padding-left: 10vh;
+    height: 300px;
+}
+.btn img{
+    height: 100px;
+}
 @media screen and (max-width:1024px) {
     .pad{
         padding-left: 110vh;
@@ -34,34 +61,16 @@ body{
         padding-left: 20vh;
     }
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
     .pad{
         padding-left: 10vh;
     }
-}
-.heading h1{
-    padding-left: 10vh;
-    font-weight: 900;
-    font-size: 4em;
-    color: white;
-    font-family: 'Roboto Slab', serif;
-}
-.space{
-    padding-top: 80px;
-}
-.rules{
-    color: white;
-    padding-left: 10vh;
-    padding-top: 100px;
-    font-weight: 200;
-    font-size: 1.5em;
-    font-family: 'Roboto Slab', serif;
-}
-.btn {
-    padding-top: 100px;
-    padding-left: 10vh;
-    height: 300px;
-}
-.btn img{
-    height: 100px;
+    footer{
+        padding-top: 200px;
+    }
+    .heading h1, .rules, .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
