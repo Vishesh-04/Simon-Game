@@ -31,12 +31,12 @@ body{
 }
 @media screen and (max-width:500px) {
     .pad{
-        padding-left: 40vh;
+        padding-left: 20vh;
     }
 }
 @media screen and (max-width:375px) {
     .pad{
-        padding-left: 20vh;
+        padding-left: 10vh;
     }
 }
 .heading h1{
