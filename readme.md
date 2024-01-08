@@ -1,5 +1,4 @@
-# Simon Game Website
-
+# Simon Game 
 ![Simon Game](Assests/ss3.png)
 ![Simon Game](Assests/ss1.png)
 ![Simon Game](Assests/ss2.png)
